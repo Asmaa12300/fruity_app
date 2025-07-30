@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:fruity_app/features/on_boarding/presentation/view/widgets/on_boarding_view.dart';
 import 'package:fruity_app/generated/assets.dart';
 
 
@@ -13,7 +14,7 @@ class SplashBody extends StatefulWidget {
 class _SplashBodyState extends State<SplashBody> {
   @override
   void initState() {
-
+    excuteNavigation();
     // TODO: implement initState
     super.initState();
   }
@@ -33,5 +34,11 @@ class _SplashBodyState extends State<SplashBody> {
 
       ],
     );
+  }
+
+  void excuteNavigation() {
+    Future.delayed(Duration(seconds: 3),(){
+      Navigator.pushReplacementNamed(context, OnBoardingView.routeName);
+    });
   }
 }
