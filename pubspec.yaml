@@ -28,14 +28,25 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_localizations:
+    sdk: flutter
+  google_sign_in: ^6.1.5
+  flutter_facebook_auth:
+  sign_in_with_apple:
+  crypto:
+  flutter_svg_provider: ^1.0.7
+  equatable:
+
   flutter:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  dots_indicator:
 
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
 
@@ -47,22 +58,35 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   flutter_launcher_icons:
   flutter_svg:
-
+  shared_preferences:
+  firebase_core:
+  cloud_firestore:
+  dartz:
+  firebase_auth:
+  bloc:
+  flutter_bloc: ^9.1.1
+  get_it: ^8.2.0
+  modal_progress_hud_nsn: ^0.5.1
+  skeletonizer:
 
 # For information on the generic Dart part of this file, see the
+
+
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
 
   # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
+  # included with your application, entites that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
   assets:
       - assets/images/
+      - assets/images/bold/
+      - assets/images/outline/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -76,10 +100,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
@@ -95,3 +119,5 @@ flutter_launcher_icons:
   ios: true
   image_path: "assets/images/FruitsAppIcon.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
+flutter_intl:
+  enabled: true

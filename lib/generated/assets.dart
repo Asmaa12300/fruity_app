@@ -2,11 +2,34 @@
 class Assets {
   Assets._();
 
+  static const String boldArrowSwapHorizontal = 'assets/images/bold/arrow-swap-horizontal.svg';
+  static const String boldHome = 'assets/images/bold/home.svg';
+  static const String boldProducts = 'assets/images/bold/products.svg';
+  static const String boldShoppingCart = 'assets/images/bold/shopping-cart.svg';
+  static const String boldUser = 'assets/images/bold/user.svg';
+  static const String fontsCairoRegular = 'assets/fonts/Cairo-Regular.ttf';
+  static const String imagesApple = 'assets/images/apple.svg';
+  static const String imagesAvocadoPNGClipart1 = 'assets/images/Avocado-PNG-Clipart 1.png';
+  static const String imagesCheck = 'assets/images/Check.svg';
   static const String imagesCircles = 'assets/images/Circles.svg';
+  static const String imagesEllipse224 = 'assets/images/Ellipse 224.svg';
+  static const String imagesFacebook = 'assets/images/facebook.svg';
   static const String imagesFruitHup = 'assets/images/FruitHup.svg';
   static const String imagesFruitbasketamico = 'assets/images/fruitbasketamico.svg';
   static const String imagesFruitsAppIcon = 'assets/images/FruitsAppIcon.png';
+  static const String imagesGoogle = 'assets/images/google.svg';
+  static const String imagesMaskgroup = 'assets/images/Mask group.png';
+  static const String imagesNotification = 'assets/images/notification.svg';
   static const String imagesPineapplecuate = 'assets/images/pineapplecuate.svg';
   static const String imagesPlant = 'assets/images/Plant.svg';
+  static const String imagesSearchNormal = 'assets/images/search-normal.svg';
+  static const String imagesSetting4 = 'assets/images/setting-4.svg';
+  static const String imagesVectored = 'assets/images/Vectored.svg';
+  static const String imagesVectorgreen = 'assets/images/Vectorgreen.svg';
+  static const String outlineHome = 'assets/images/outline/home.svg';
+  static const String outlineProducts = 'assets/images/outline/products.svg';
+  static const String outlineShoppingCart = 'assets/images/outline/shopping-cart.svg';
+  static const String outlineTrash = 'assets/images/outline/trash.svg';
+  static const String outlineUser = 'assets/images/outline/user.svg';
 
 }
